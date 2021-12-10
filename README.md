@@ -37,6 +37,8 @@ Here's a walkthrough of implemented user stories:
 
 While i was developing this mini project I was full of university work since at the time im writing this, its finals week and cant implement 
 my desired features and UI improvements, next week im hoping to pick this project back up.
+As well as your personal twitter api key never works for this projects endpoints, i spent an hour and so debugging this problem and just ended up using CodePaths 
+API key, therefore contributing to less time polishing the project.
 
 ## Open-source libraries used
 
