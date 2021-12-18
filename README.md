@@ -15,7 +15,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] User is using **"Twitter branded" colors and styles**
+- [X] User is using **"Twitter branded" colors and styles**
 - [X] User can click links in tweets launch the web browser 
 - [ ] User can **select "reply" from detail view to respond to a tweet**
 - [X] The "Compose" action is moved to a FloatingActionButton instead of on the AppBar
@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://media.giphy.com/media/aiEZYiCaet5tiRfIfq/giphy.gif' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/J7g4jCALHhdRiYnoYc/giphy.gif' width='' alt='Video Walkthrough' />
 
 
 ## Notes
