@@ -34,7 +34,9 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@+id/ivProfileImage"
-        tools:text="dyigcavca  cc  cg cjd xs xshjc hkx hx hx" />
+        android:autoLink="all"
+
+        tools:text="there should be some text here" />
 
     <TextView
         android:id="@+id/tvTimeStamp"
