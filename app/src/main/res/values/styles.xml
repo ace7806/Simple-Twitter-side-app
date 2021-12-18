@@ -1,9 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="AppBaseTheme" parent="@style/Theme.MaterialComponents.Light.DarkActionBar">
-        <item name="actionBarTheme">@color/colorPrimary</item>
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+    <style name="AppBaseTheme" parent="@style/Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/design_default_color_background</item>
+        <item name="colorOnPrimary">@color/design_default_color_background</item>
 
+        <item name="android:statusBarColor" tools:targetApi="l">@color/colorPrimary</item>
+        <!-- Applying style like this  -->
+        <item name="actionBarStyle">@style/Widget.MaterialComponents.ActionBar.Primary</item>
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
@@ -16,6 +20,8 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+
     </style>
 
 </resources>

@@ -48,6 +48,10 @@ public class TimeLineActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_time_line);
         swipeRefreshLayout = findViewById(R.id.swipeConatiner);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setLogo(R.mipmap.ic_real_twitter);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
+
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
